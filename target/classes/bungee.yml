@@ -1,0 +1,46 @@
+name: InfBChat
+version: '0.1'
+main: me.kilosheet.infbchat.InfBChat
+author: InfinityDevelopment
+commands:
+  ibc:
+    description: Main command for InfBChat plugin.
+    aliases: [infbchat]
+  msg:
+    description: Send a private message to another player.
+    aliases: [privatemessages]
+  kickall:
+    description: Kick all players from the server.
+    permission: infbchat.kickall
+    permission-message: "&cYou do not have permission to use this command."
+permissions:
+  infbchat.reload:
+    description: Allows reloading the plugin's configuration.
+    default: admin
+  infbchat.clearchat:
+    description: Allows clearing the chat for all players.
+    default: admin
+  infbchat.glist:
+    description: Allows viewing the global list of players across servers.
+    default: true
+  infbchat.help:
+    description: Allows access to the help command.
+    default: true
+  infbchat.msg:
+    description: Allows sending private messages to other players.
+    default: true
+  infbchat.nick:
+    description: Allows changing the nickname.
+    default: admin
+  infbchat.nick.colorcodes:
+    description: Allows using color codes in nicknames.
+    default: admin
+  infbchat.kickall:
+    description: Allows kicking all players from the server.
+    default: admin
+  infbchat.bypass.antispam:
+    description: Allows bypassing the anti-spam cooldown.
+    default: admin
+  infbchat.commandblocker.bypass:
+    description: Allows bypassing the commandblocker.
+    default: admin

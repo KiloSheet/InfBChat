@@ -1,0 +1,14 @@
+messages:
+  # Messages For Moderating Plugin
+  glist_header: "&6----------&bThere Are {PLAYERS} Online&6----------"
+  glist_line: "&7- &c{SERVER_NAME}: &d[{PROGRESS_BAR}&d] &9{CURRENT_PLAYERS}/{MAX_PLAYERS}"
+  glist_invalid_server: "&cInvalid server configuration. Plugin will not be enabled."
+  help_message: "&6&m-------------&bInfBChat&6&m-------------\n \n &b- &c/InfBChat Glist &7For Listing players \n &b- &c/InfBChat ClearChat &7For clearing chat! \n &b- &c/InfBChat Nick &7For Setting nickname \n &b- &c/MSG <player> <message> &7For PrivateMessages \n &b- &c/KickAll &7For kick all players"
+  clear_chat_message: "&aClearing Chat....."
+  reload_message: "&e⚠ &bPlugin Reloaded!"
+  no_permission: "&cYou do not have permission to use this command."
+  msg_usage: "&bInf&cB&dChat &7» &6Use /msg <player> <message>"
+  msg_sender_format: "&6✉ &bYou &c-> &9{player} &7: {message}"
+  msg_receiver_format: "&6✉ &b{player} &c-> &9You &7: {message}"
+  msg_player_not_found: "&cPlayer not found."
+  chat_spam_warning: "&bInf&cB&dChat &7» &cPlease Slowdown For {seconds} seconds. &3You are sending messages too quickly&7!"

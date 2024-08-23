@@ -1,0 +1,10 @@
+me\kilosheet\infbchat\utils\PlayerJoinListener.class
+me\kilosheet\infbchat\commands\GlistCommand.class
+me\kilosheet\infbchat\commands\MsgCommand.class
+me\kilosheet\infbchat\utils\AntiSpam.class
+me\kilosheet\infbchat\utils\ChatListener.class
+me\kilosheet\infbchat\commands\NickCommand.class
+me\kilosheet\infbchat\commands\IbcCommand.class
+me\kilosheet\infbchat\commands\KickAllCommand.class
+me\kilosheet\infbchat\InfBChat.class
+me\kilosheet\infbchat\commands\ClearChatCommand.class
